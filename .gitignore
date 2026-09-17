@@ -1,0 +1,23 @@
+# ===== Ventoy 官方二进制与镜像（不入库）=====
+# 理由：均为官方可下载的第三方软件/镜像，且体积过大
+#   ventoy-1.1.17-livecd.iso   187 MB —— 超出 GitHub 单文件 100 MB 硬限制
+#   ventoy-1.1.17-windows.zip   16.6 MB
+# 官方下载：https://www.ventoy.net/cn/download.html
+*.iso
+*.zip
+*.exe
+*.xz
+*.img
+ventoy-1.1.17-windows/
+
+# ===== 系统与编辑器文件 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+*.log
+!README.md
+
+# ===== 说明 =====
+# 本仓库只保存项目自身的文档与配置（README.md、REDMIN.MD 等），
+# 不保存任何第三方二进制文件与系统镜像。
